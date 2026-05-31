@@ -1,0 +1,34 @@
+# bball-mobile-v2 — Architecture
+
+> Auto-generated 2026-05-31 14:34 UTC from brain.db structural extraction (`extract-structure.py` → `mem_app_*`). Division: **tbf**. Regenerate via `/tmp/gen-architecture.py`. Edit prose freely; counts refresh on regen.
+
+## At a glance
+
+| Routes | API endpoints | DB tables | Components | Functions | Env vars | Packages | Workflows |
+|---|---|---|---|---|---|---|---|
+| 0 | 0 | 9 | 18 | 1110 | 26 | 1 | 2 |
+
+## Deploy / runtime
+
+- package-scripts
+
+## Database tables (9)
+
+- **Account** (13 cols)
+- **Analysis** (29 cols)
+- **BiomechanicalMeasurement** (18 cols)
+- **EliteShooter** (28 cols)
+- **Flaw** (14 cols)
+- **PlayerProfile** (12 cols)
+- **Report** (13 cols)
+- **Session** (5 cols)
+- **User** (12 cols)
+
+## Environment variables (26)
+
+`ABACUS_API_KEY`, `ALLOWED_ORIGINS`, `LOG_FILE`, `LOG_LEVEL`, `MAX_WORKERS`, `NEXT_DIST_DIR`, `NEXT_OUTPUT_MODE`, `NEXT_PUBLIC_PYTHON_API_URL`, `NODE_ENV`, `OPENAI_API_KEY`, `OUTPUT_DIR`, `PARALLEL_PROCESSING`, `PEXELS_API_KEY`, `PIXABAY_API_KEY`, `PLAYWRIGHT_BROWSERS_PATH`, `PORT`, `POSE_PORT`, `REPLICATE_API_TOKEN`, `ROBOFLOW_API_KEY`, `SHOTSTACK_ENV`, `SHOTSTACK_PRODUCTION_API_KEY`, `SHOTSTACK_SANDBOX_API_KEY`, `UNSPLASH_ACCESS_KEY`, `VISION_FALLBACK_PROVIDER`, `VISION_PRIMARY_PROVIDER`, `VISION_TIMEOUT`
+
+## Key dependencies (prod)
+
+`puppeteer@^24.34.0`
+
