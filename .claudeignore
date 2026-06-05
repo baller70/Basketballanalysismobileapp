@@ -1,0 +1,22 @@
+# Build artifacts and deps — excluded from agentic search + semantic index
+.next
+.next.old
+.next.prev
+.next.broken*
+.next.good
+node_modules
+dist
+build
+out
+coverage
+.turbo
+.cache
+__pycache__
+*.pyc
+.git
+*.bak
+*.bak-*
+*.log
+.DS_Store
+public/fonts/custom
+storybook-static
